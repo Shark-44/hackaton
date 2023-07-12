@@ -1,0 +1,15 @@
+.listStore{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  border: 2px solid red;
+  width: 70vw;
+}
+
+img{
+  width: 200px;
+  padding: 20px
+}
