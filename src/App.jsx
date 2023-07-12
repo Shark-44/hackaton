@@ -1,19 +1,20 @@
-/* eslint-disable react/jsx-no-undef */
+
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Adventure from "./pages/Adventure";
+import Store from "./pages/Store";
+import NavBar from "./components/NavBar";
 
 function App() {
- 
-
   return (
     <div className="App">
+      <NavBar />
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/adventure" element={<Adventure />} />
         <Route path="/store" element={<Store />} />
       </Routes>
-
-  
     </div>
   )
 }

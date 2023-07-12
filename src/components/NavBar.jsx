@@ -1,12 +1,9 @@
-import "./Navbar.css";
-
+import "./NavBar.css";
 //import React from "react";
-//import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <header>
       <nav>
         <ul>
           <li>
@@ -20,7 +17,6 @@ const NavBar = () => {
           </li>
         </ul>
       </nav>
-    </header>
   );
 };
 
