@@ -15,11 +15,11 @@ const RandomTableIndex = () => {
         {randomIndex !== null && (
           <>
             
-            <div> Value: {
+            <div> {
             tableData
               .filter((elem, index) => index === randomIndex )
               .map((elem) => {
-              return <div key={elem.rep}><p>{elem.rep}</p> <p>{elem.trad}</p> </div>
+              return <div key={elem.rep}><p>{elem.rep}</p> <p>Traduction :{elem.trad}</p> </div>
             })}
           </div>
           </>

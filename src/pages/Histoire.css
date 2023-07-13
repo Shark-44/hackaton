@@ -1,17 +1,17 @@
 .contenair {
     margin: 0;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
+    margin-top: 60px;
     display: flex;
     align-items: flex-end;
 }
-.zoneperso{
-    display: flex;
+.zoneperso {
+   display: flex;
    height: 100%;
    width: 100%;
    justify-content: space-around;
    align-items: flex-end;
-
 }
 .fondgrotte{
     z-index: 0;
@@ -27,6 +27,22 @@
     height: 100px;
     justify-content: flex-end;
 }
+.bulleHC{
+    z-index: 10;
+    align-items: center;
+    display: flex;
+}
+.tailleimg{
+    width: 500px;
+    height: 400px;
+}
+.zonereponse{
+    z-index: 15;
+    display: flex ;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -40px
+}
 .jcquest{
     z-index: 2;
     display: flex;
@@ -34,12 +50,19 @@
     width: 500px;
     height: 100px;
     justify-content: flex-end;
-    background-color: yellow;
 }
 .bulleJC{
         z-index: 10;
-        background-color: blue;
+        align-items: center;
+        display: flex;
+}
+.imgbulle{
+    width: 500px;
 }
 .zonetext{
     z-index: 15;
+    display: flex ;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -40px;
 }
