@@ -17,7 +17,7 @@ const CardHome = () => {
             Provident itaque modi dolorum et quia accusantium. Voluptas eligendi
           </p>
           <div className="divCardLinkStore">
-            <button className="globBtn">
+            <button className="globBtn buttonhome">
               <Link to="/store">
                 <div className="default-btn">
                   <svg

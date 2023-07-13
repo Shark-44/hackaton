@@ -1,33 +1,43 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const RandomTableIndex = () => {
-  const [tableData, setTableData] = useState([{rep:'GRoaAAAHH', trad:'Pas mal!'}, {rep: 'YoLOOoo', trad: 'Super !'}, {rep: 'CocodEK', trad: 'A ne pas pondre!'}, {rep: 'POUaaa', trad: 'A chier!'}, {rep: 'EHUMmmm', trad: 'Interesant'}, {rep: 'WoUalala', trad: 'J achete!'} ])
-  const [randomIndex, setRrandomIndex] = useState(null)
+  const [tableData, setTableData] = useState([
+    { rep: "GRoaAAAHH", trad: "Pas mal!" },
+    { rep: "YoLOOoo", trad: "Super !" },
+    { rep: "CocodEK", trad: "A ne pas pondre!" },
+    { rep: "POUaaa", trad: "A chier!" },
+    { rep: "EHUMmmm", trad: "Interesant" },
+    { rep: "WoUalala", trad: "J achete!" },
+  ]);
+  const [randomIndex, setRrandomIndex] = useState(null);
 
   const getRandomIndex = () => {
     const randomIndex = Math.floor(Math.random() * tableData.length);
     setRrandomIndex(randomIndex);
-  }
+  };
 
   return (
-      <div>
-        <button onClick={getRandomIndex}>Get Random Index</button>
-        {randomIndex !== null && (
-          <>
-            
-            <div> {
-            tableData
-              .filter((elem, index) => index === randomIndex )
+    <div>
+      <button onClick={getRandomIndex}>Voir la réponse</button>
+      {randomIndex !== null && (
+        <>
+          <div>
+            {" "}
+            {tableData
+              .filter((elem, index) => index === randomIndex)
               .map((elem) => {
-              return <div key={elem.rep}><p>{elem.rep}</p> <p>Traduction :{elem.trad}</p> </div>
-            })}
+                return (
+                  <div key={elem.rep}>
+                    <p>{elem.rep}</p> <p>Traduction :{elem.trad}</p>{" "}
+                  </div>
+                );
+              })}
           </div>
-          </>
-        )}
-      </div>
-    );
-  
-}
+        </>
+      )}
+    </div>
+  );
+};
 
 export default RandomTableIndex;
 
