@@ -5,7 +5,7 @@
 .CardObject{
   height: 130px;
   width: 130px;
-  border: 3px solid red;
+  color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;

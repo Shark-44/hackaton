@@ -39,13 +39,13 @@ const dataList = [
   }
 ];
 
-const CardObjectShop = () => {
+const CardObjectShop = ({ name, alt, src, prix }) => {
 
   return (
     <div className="CardObject">
-      <h2>jumelles</h2>
-      <img src="/src/assets/images/lunettes.jpg" alt="de jumelles de vue" />
-      <p>prix</p>
+      <h2>{name}</h2>
+      <img src={src} alt={alt} />
+      <p>{prix}</p>
     </div>
   )
 }

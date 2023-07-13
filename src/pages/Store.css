@@ -4,11 +4,29 @@
 }
 
 .CardObjectShop-container{
+width: 1100px;
+  height: 500px;
   display: flex;
-  border: 2px solid green;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   padding: 8px;
-  margin: 10px;
+  margin: 40px;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(src/assets/images/malettejpg.jpg);
+  background-repeat: no-repeat;
+  padding-right: 160px;
+}
+
+.CardObjectShop-container-one{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 35px;
+}
+
+.CardObjectShop-container-two{
+  display: flex;
+  margin-bottom: 140px;
+  margin-left: 35px;
 }
 
