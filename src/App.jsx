@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Adventure from "./pages/Adventure";
 import Store from "./pages/Store";
 import Histoire from "/src/pages/Histoire"
+import Histoire2 from "/src/pages/Histoire2"
 import NavBar from "./components/NavBar";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/adventure" element={<Adventure />} />
         <Route path="/store" element={<Store />} />
         <Route path="/histoire" element={<Histoire />} />
+        <Route path="/Histoire2" element={<Histoire2 />} />
       </Routes>
     </div>
   )

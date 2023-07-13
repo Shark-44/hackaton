@@ -6,8 +6,7 @@
     display: flex;
     align-items: flex-end;
 }
-.zoneperso {
-   display: flex;
+.zoneperso {display: flex;
    height: 100%;
    width: 100%;
    justify-content: space-around;
