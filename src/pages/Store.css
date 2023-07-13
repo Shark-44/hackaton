@@ -3,23 +3,12 @@
   padding: 0;
 }
 
-.listStore{
+.CardObjectShop-container{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  border: 2px solid green;
   flex-direction: row;
-  align-content: center;
-  width: 75vw;
-  height: 40vh;
-  background-image: url('src/assets/images/malettejpg.jpg');
-  background-repeat: no-repeat;
-  
-}
-
-.cardImg{
-  width: 120px;
-  padding: 20px;
-  border-radius: 20%; 
+  justify-content: space-around;
+  padding: 8px;
+  margin: 10px;
 }
 
