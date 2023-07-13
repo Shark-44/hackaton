@@ -1,4 +1,3 @@
-
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -8,11 +7,13 @@ import Histoire from "/src/pages/Histoire"
 import Histoire2 from "/src/pages/Histoire2"
 import NavBar from "./components/NavBar";
 
+// import CardHome from "./components/CardHome";
+
 function App() {
   return (
     <div className="App">
       <NavBar />
-    <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/adventure" element={<Adventure />} />
         <Route path="/store" element={<Store />} />
@@ -20,7 +21,7 @@ function App() {
         <Route path="/Histoire2" element={<Histoire2 />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
