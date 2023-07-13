@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navGlobal {
+  background-color: rgb(57, 55, 55);
+ 
+}
+
+.liste {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.items {
+  font-family: "IM FELL Great Primer SC";
+  font-size: 2em;
+  color: #f1f1f1;
+  cursor: pointer;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+  margin-top: 1.2rem;
+  flex-direction: column;
+  margin-top: 1.2rem;
+}
+
+a:hover {
+  color: #b61e1e;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
