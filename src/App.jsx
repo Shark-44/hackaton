@@ -7,6 +7,7 @@ import Adventure from "./pages/Adventure";
 import Store from "./pages/Store";
 import NavBar from "./components/NavBar";
 
+import CardHome from "./components/CardHome";
 
 
 function App() {

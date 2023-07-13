@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react";
+import CardHome from "../components/CardHome";
 
 
 
@@ -8,7 +9,7 @@ import React, { useState, useEffect } from "react";
 const Home = () => {
   return (
     <div>
-    
+    <CardHome />
       
     </div>
   )

@@ -1,0 +1,60 @@
+.card-body {
+  display: flex;
+  align-items: center;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #1a3948;
+  margin: 10%;
+}
+.title-h1 {
+  font-family: "IM FELL Great Primer SC";
+  font-size: 3rem;
+  padding-right: 420px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-family: "Adamina";
+  font-size: 1.3rem;
+  color: white;
+  background-image: "./src/assets/evilHandShop.png";
+  padding-left: 60px;
+  padding-right: 60px;
+}
+/* .evilHandShopContainer 
+{ position: relative;
+  z-index: 1;
+} */
+.divCardLinkStore {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+/*
+#catShop {
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+*/
+#buttonStore {
+  position: relative;
+  top: -60px;
+  z-index: 1;
+}
+@media screen and (max-width: 900px) {
+  .card-body{
+    flex-direction: column;
+  }
+  .card {
+    padding: 20px;
+  }
+  .divCardLinkStore {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}
