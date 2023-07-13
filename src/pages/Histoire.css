@@ -1,0 +1,67 @@
+.contenair {
+    margin: 0;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 60px;
+    display: flex;
+    align-items: flex-end;
+}
+.zoneperso {display: flex;
+   height: 100%;
+   width: 100%;
+   justify-content: space-around;
+   align-items: flex-end;
+}
+.fondgrotte{
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.hCro{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+    justify-content: flex-end;
+}
+.bulleHC{
+    z-index: 10;
+    align-items: center;
+    display: flex;
+}
+.tailleimg{
+    width: 500px;
+    height: 400px;
+}
+.zonereponse{
+    z-index: 15;
+    display: flex ;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -40px
+}
+.jcquest{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+    justify-content: flex-end;
+}
+.bulleJC{
+        z-index: 10;
+        align-items: center;
+        display: flex;
+}
+.imgbulle{
+    width: 500px;
+}
+.zonetext{
+    z-index: 15;
+    display: flex ;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -40px;
+}

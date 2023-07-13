@@ -4,7 +4,7 @@
   border-radius: 15px 15px 15px 15px;
   background-color: #1a3948;
   margin: 20px;
-  height: 340px;
+  height: 355px;
   width: 400px;
 }
 .title-h1 {
@@ -20,9 +20,7 @@
   font-family: "Adamina";
   /* font-size: 1.3rem; */
   color: white;
-  /* background-image: "./src/assets/evilHandShop.png"; */
-  /* padding-left: 60px;
-  padding-right: 60px; */
+  padding: 20px;
 }
 /* .evilHandShopContainer 
 { position: relative;
@@ -57,7 +55,7 @@
     margin-right: auto;
   }
 }
-button {
+.buttonhome {
   position: relative;
   overflow: hidden;
   outline: none;
