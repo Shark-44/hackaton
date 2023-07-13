@@ -1,15 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .listStore{
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
-  align-content: space-between;
-  border: 2px solid red;
-  width: 70vw;
+  align-content: center;
+  width: 75vw;
+  height: 40vh;
+  background-image: url('src/assets/images/malettejpg.jpg');
+  background-repeat: no-repeat;
+  
 }
 
-img{
-  width: 200px;
-  padding: 20px
+.cardImg{
+  width: 120px;
+  padding: 20px;
+  border-radius: 20%; 
 }
+
